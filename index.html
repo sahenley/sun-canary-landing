@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SunCanary</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-yellow-100 text-gray-800 font-sans">
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex flex-col items-center justify-center text-center px-6 py-16">
+      <h1 class="text-5xl font-extrabold text-gray-900 mb-4">SunCanary</h1>
+      <p class="text-xl max-w-xl">
+        A fun, color-changing wristband that reminds your kids to reapply sunscreen — before the burn.
+      </p>
+
+      <!-- CTA Button -->
+      <a href="#waitlist" class="mt-8 bg-black text-white text-lg py-3 px-6 rounded-full hover:bg-gray-800 transition">
+        Join the Waitlist
+      </a>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="bg-white py-16 px-6 text-center">
+      <h2 class="text-2xl font-bold mb-6">Why SunCanary?</h2>
+      <div class="flex flex-col md:flex-row gap-8 max-w-4xl mx-auto">
+        <div class="flex-1">
+          <h3 class="text-lg font-semibold">UV Reactive</h3>
+          <p>Changes color in sunlight to alert you when UV is strong.</p>
+        </div>
+        <div class="flex-1">
+          <h3 class="text-lg font-semibold">Builds Habits</h3>
+          <p>Gives kids a visible, fun reminder to reapply sunscreen.</p>
+        </div>
+        <div class="flex-1">
+          <h3 class="text-lg font-semibold">Simple & Affordable</h3>
+          <p>No batteries, no apps — just wearable peace of mind.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Waitlist Form Section -->
+    <section id="waitlist" class="bg-yellow-200 py-16 px-6 text-center">
+      <h2 class="text-2xl font-bold mb-4">Get Notified When We Launch</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST" class="max-w-md mx-auto">
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+          class="w-full px-4 py-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black"
+        />
+        <button
+          type="submit"
+          class="mt-4 w-full bg-black text-white py-3 rounded hover:bg-gray-800 transition"
+        >
+          Join Now
+        </button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-sm text-center py-8 text-gray-600">
+      &copy; 2025 SunCanary. All rights reserved.
+    </footer>
+
+  </body>
+</html>
