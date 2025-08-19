@@ -15,103 +15,257 @@
 </head>
 <body class="bg-white text-gray-800">
 
-  <!-- Hero -->
-  <section class="relative bg-cover bg-center h-screen" style="background-image: url('suncanary_hero_image_surferboy.webp');">
-    <div class="flex flex-col items-center justify-center h-full bg-black bg-opacity-50 text-center px-4">
-      <img src="white_sun_canary_logo.webp" alt="Logo" class="w-20 mb-6" />
-      <h1 class="text-white text-5xl font-bold mb-4">SunCanary</h1>
-      <p class="text-white text-lg max-w-xl mb-6">
-        A fun, color-changing wristband that reminds your kids to reapply sunscreen – before the burn.
-      </p>
-      <a href="#waitlist" class="bg-white text-black font-semibold px-6 py-3 rounded hover:bg-gray-200 transition">Join Waitlist</a>
-    </div>
-  </section>
 
-  <!-- Colour Change -->
-  <section class="py-16 px-6">
-    <h2 class="text-3xl font-bold text-center mb-10">When the sun hits, the colour flips</h2>
-    <div class="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
-      <div>
-        <img src="check_the_uv_level.webp" alt="UV Band Visual" class="rounded-lg shadow" />
-        <h3 class="text-lg font-semibold mt-4">See the UV level change in real time</h3>
-        <p class="text-gray-600">The band shifts from yellow to purple based on UV strength, so kids know when to reapply sunscreen.</p>
-      </div>
-      <div>
-        <img src="sun_canary_two-kids_bird_on_hand.webp" alt="Kids with band" class="rounded-lg shadow" />
-        <h3 class="text-lg font-semibold mt-4">Makes sun-safety fun</h3>
-        <p class="text-gray-600">Kids love spotting the colour change. It becomes part of their outdoor routine, not a chore.</p>
-      </div>
+<!-- Hero -->
+<section class="relative bg-cover bg-center h-screen" style="background-image: url('suncanary_hero_image_surferboy.webp');">
+  <!-- Logo in top-left -->
+  <div class="absolute top-6 left-6">
+    <img src="white_sun_canary_logo.webp" alt="SunCanary Logo" class="w-20">
+  </div>
+
+  <!-- Centered content (lowered slightly) -->
+  <div class="flex flex-col items-center justify-center h-full bg-black bg-opacity-40 text-center px-4 pt-20 md:pt-32">
+    <h1 class="text-white text-6xl font-bold mb-6">SunCanary</h1>
+    <p class="text-white text-xl md:text-2xl max-w-2xl mb-8">
+      A fun, colour-changing wristband that reminds your kids to reapply sunscreen — before the burn.
+    </p>
+    <a href="#waitlist" class="bg-white text-black font-semibold px-6 py-2 rounded hover:bg-gray-200 transition text-base md:text-lg">
+      Join Waitlist
+    </a>
+  </div>
+</section>
+
+
+<!-- Product Section -->
+<section class="py-20 px-6 bg-gray-50">
+  <div class="max-w-2xl mx-auto text-center">
+    <img src="suncanary_band_clear_background.webp" alt="SunCanary Band"
+         class="mx-auto w-64 md:w-72 lg:w-80 mb-6" />
+
+    <h2 class="text-3xl font-bold text-gray-900 mb-3">SunCanary</h2>
+
+    <p class="text-lg text-gray-700 mb-1">£6.99 – Retail price</p>
+    <p class="text-base text-gray-600 mb-6 italic">Because remembering sunscreen shouldn’t be a daily battle.</p>
+
+    <ul class="text-gray-700 text-base space-y-1 mb-6">
+      <li>✓ Colour-changing indicator</li>
+      <li>✓ Fun and easy for kids to use</li>
+      <li>✓ No batteries or tech needed</li>
+    </ul>
+
+    <a href="#waitlist" class="bg-black text-white font-semibold px-6 py-3 rounded hover:bg-gray-800 transition">
+      Join Waitlist
+    </a>
+  </div>
+</section>
+
+
+<!-- Colour Flip Section -->
+<section class="py-20 px-6 bg-[#FFF9DF]">
+  <h2 class="text-3xl md:text-4xl font-bold text-center text-[#333333] mb-12">
+    When the sun hits, the colour flips
+  </h2>
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-start">
+    
+    <!-- Left: Kids image -->
+    <div>
+      <p class="text-sm text-gray-500 uppercase tracking-wide mb-2">Why kids love it</p>
+      <img src="sun_canary_two-kids_bird_on_hand.webp" alt="Kids with band" class="rounded-lg shadow-md w-full" />
+      <h3 class="text-lg font-bold mt-4 text-[#333333]">Makes sun-safety fun</h3>
+      <p class="text-gray-700">Kids love spotting the colour change. It becomes part of their outdoor routine, not a chore.</p>
     </div>
-  </section>
+
+    <!-- Right: UV Strip -->
+    <div>
+      <p class="text-sm text-gray-500 uppercase tracking-wide mb-2">How it works</p>
+      <img src="check_the_uv_level.webp" alt="UV Band Visual" class="rounded-lg shadow-md w-full" />
+      <h3 class="text-lg font-bold mt-4 text-[#333333]">See the UV level change in real time</h3>
+      <p class="text-gray-700">The band shifts from yellow to purple based on UV strength, so kids know when to reapply sunscreen.</p>
+    </div>
+  </div>
+</section>
+
 
   <!-- How It Works -->
-  <section class="py-16 px-6 bg-gray-50">
-    <h2 class="text-3xl font-bold text-center mb-10">Kids forget sunscreen. SunCanary helps them remember.</h2>
-    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto text-center">
-      <div>
-        <img src="suncanary_boy_apply_sunscreen_sq.webp" alt="Step 1" class="rounded-lg shadow" />
-        <h3 class="text-lg font-semibold mt-4">Apply sunscreen</h3>
+<section class="py-20 px-6 bg-white">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 mb-2">Kids forget sunscreen.</h2>
+    <h3 class="text-3xl font-extrabold tracking-tight text-gray-900 mb-12">SunCanary helps them remember.</h3>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Step 1 -->
+      <div class="flex flex-col items-center text-center">
+        <div class="w-full aspect-[3/4] overflow-hidden rounded-xl shadow-sm">
+          <img src="suncanary_boy_apply_sunscreen_sq.webp" alt="Apply sunscreen" class="object-cover w-full h-full" />
+        </div>
+        <h4 class="font-bold text-lg mt-4 mb-2">Apply sunscreen</h4>
         <p class="text-gray-600">Kids start their day as usual – with sunscreen applied on exposed skin.</p>
       </div>
-      <div>
-        <img src="suncanary_boy_kite_sq.webp" alt="Step 2" class="rounded-lg shadow" />
-        <h3 class="text-lg font-semibold mt-4">Outside play</h3>
+
+      <!-- Step 2 -->
+      <div class="flex flex-col items-center text-center">
+        <div class="w-full aspect-[3/4] overflow-hidden rounded-xl shadow-sm">
+          <img src="suncanary_boy_kite_sq.webp" alt="Outside play" class="object-cover w-full h-full" />
+        </div>
+        <h4 class="font-bold text-lg mt-4 mb-2">Outside play</h4>
         <p class="text-gray-600">The band reacts to the sun as kids play, reminding them when exposure rises.</p>
       </div>
-      <div>
-        <img src="suncanary_sunscreen_by_mum.webp" alt="Step 3" class="rounded-lg shadow" />
-        <h3 class="text-lg font-semibold mt-4">Reapply when needed</h3>
+
+      <!-- Step 3 -->
+      <div class="flex flex-col items-center text-center">
+        <div class="w-full aspect-[3/4] overflow-hidden rounded-xl shadow-sm">
+          <img src="suncanary_sunscreen_by_mum.webp" alt="Reapply when needed" class="object-cover w-full h-full" />
+        </div>
+        <h4 class="font-bold text-lg mt-4 mb-2">Reapply when needed</h4>
         <p class="text-gray-600">When the band turns purple, it’s time to reapply sunscreen and stay protected.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Why Parents Love It -->
-  <section class="py-16 px-6">
-    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-      <div>
-        <h2 class="text-3xl font-bold mb-6">Why parents love it</h2>
-        <ul class="space-y-4 text-gray-700">
-          <li><strong>UV reactive</strong><br />Instantly alerts kids when UV exposure rises.</li>
-          <li><strong>Builds Habits</strong><br />Helps kids build lasting sunscreen routines.</li>
-          <li><strong>Safe and smart</strong><br />No apps, no batteries. Just reliable sun awareness.</li>
-        </ul>
-        <a href="#waitlist" class="mt-6 inline-block bg-black text-white font-semibold px-6 py-3 rounded hover:bg-gray-800 transition">Join waitlist</a>
+
+
+
+<!-- Why Parents Love It -->
+<section class="py-20 px-6 bg-gray-50">
+  <div class="max-w-3xl mx-auto text-center">
+    <img src="suncanary_girl_bird_on_hand_sq.webp" alt="Girl with band"
+         class="mx-auto rounded-lg shadow-lg w-64 md:w-80 mb-8" />
+
+    <h2 class="text-3xl font-bold text-gray-900 mb-6">Why parents love it</h2>
+
+    <ul class="text-left text-gray-700 space-y-5 max-w-md mx-auto">
+      <li>
+        <strong class="block text-lg text-gray-900 mb-1">UV reactive</strong>
+        Instantly alerts kids when UV exposure rises.
+      </li>
+      <li>
+        <strong class="block text-lg text-gray-900 mb-1">Builds habits</strong>
+        Helps kids form lasting sunscreen routines that stick.
+      </li>
+      <li>
+        <strong class="block text-lg text-gray-900 mb-1">Safe and smart</strong>
+        No apps, no batteries — just reliable sun awareness.
+      </li>
+    </ul>
+
+    <a href="#waitlist" class="mt-10 inline-block bg-black text-white font-semibold px-6 py-3 rounded hover:bg-gray-800 transition">
+      Join Waitlist
+    </a>
+  </div>
+</section>
+
+
+
+
+<!-- Testimonials -->
+<section class="py-20 px-6 bg-white">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold text-gray-900 mb-4">Real Stories, Real Impact</h2>
+    <p class="text-gray-700 mb-12">
+      Protecting little adventurers, one color change at a time.<br />
+      SunCanary makes UV awareness playful, visible, and part of every sunny day.
+    </p>
+
+    <div class="grid md:grid-cols-3 gap-6 text-left">
+      <!-- Testimonial 1 -->
+      <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+        <p class="text-gray-800 italic mb-6">
+          “It’s the only UV product my kids actually notice. The colour change is instant, and they love showing me when it turns purple. No nagging needed!”
+        </p>
+        <div class="flex items-center gap-3">
+          <div class="w-5 h-5 bg-[#FFDD3C] rounded-full"></div>
+          <div class="text-sm">
+            <p class="text-gray-900 font-semibold">Rachel B.</p>
+            <p class="text-gray-500">Mum of 2, Brighton</p>
+          </div>
+        </div>
       </div>
-      <div>
-        <img src="suncanary_girl_bird_on_hand_sq.webp" alt="Girl with band" class="rounded-lg shadow" />
+
+      <!-- Testimonial 2 -->
+      <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+        <p class="text-gray-800 italic mb-6">
+          “We used them during Sports Day. The bands made it easy to spot which kids needed a top-up, and they were aware to come reapply”
+        </p>
+        <div class="flex items-center gap-3">
+          <div class="w-5 h-5 bg-[#FFDD3C] rounded-full"></div>
+          <div class="text-sm">
+            <p class="text-gray-900 font-semibold">Jack P.</p>
+            <p class="text-gray-500">Primary school teacher</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="bg-white border border-gray-200 rounded-lg p-6 shadow-sm">
+        <p class="text-gray-800 italic mb-6">
+          “What I like most is I don’t have to remember. The band turns purple, and the kids actually remind me. That’s the magic.”
+        </p>
+        <div class="flex items-center gap-3">
+          <div class="w-5 h-5 bg-[#FFDD3C] rounded-full"></div>
+          <div class="text-sm">
+            <p class="text-gray-900 font-semibold">Tom G.</p>
+            <p class="text-gray-500">Dad, Cornwall</p>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Product Card -->
-  <section class="py-16 px-6">
-    <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-      <div>
-        <img src="suncanaryband_2.webp" alt="SunCanary Band" class="rounded-lg shadow" />
-      </div>
-      <div>
-        <h2 class="text-2xl font-bold mb-2">SunCanary Band</h2>
-        <p class="text-gray-500 mb-2">Launching soon — get notified first.</p>
-        <p class="text-xl font-semibold mb-4">£6.99</p>
-        <p class="text-gray-700 mb-6">The only wristband your kids will notice before the sunburn. SunCanary changes colour as UV rises, helping you reapply at just the right time with zero fuss.</p>
-        <a href="#waitlist" class="bg-black text-white font-semibold px-6 py-3 rounded hover:bg-gray-800 transition">Join Waitlist</a>
-        <p class="text-xs text-gray-400 mt-2">You won’t be charged today.</p>
-      </div>
-    </div>
-  </section>
+
+
 
   <!-- Footer / Waitlist -->
   <section class="bg-gray-100 py-16 px-6" id="waitlist">
-    <div class="max-w-xl mx-auto text-center">
-      <h2 class="text-xl font-bold mb-2">Get notified when back in stock</h2>
-      <form class="flex flex-col sm:flex-row gap-4 justify-center mt-4">
-        <input type="email" placeholder="you@example.com" class="w-full px-4 py-3 rounded border border-gray-300" />
-        <button type="submit" class="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 transition">Join Waitlist</button>
-      </form>
-    </div>
-    <div class="text-center text-xs text-gray-500 mt-10">© 2025 SunCanary. All rights reserved.</div>
-  </section>
+  <div class="max-w-xl mx-auto text-center">
+    <h2 class="text-xl font-bold mb-2">Be the first to get SunCanary!</h2>
+
+<form 
+  action="https://script.google.com/macros/s/AKfycbzsHvTpC83-gcuj42O17i6eDVjku3OUDV9HCOMIX-OJ_dD5M4gHXen1hkeyFrJ2ndE1/exec" 
+  method="POST"
+  onsubmit="return handleSubmit(event)"
+  class="flex flex-col sm:flex-row gap-4 justify-center mt-4"
+>
+  <input 
+    type="email" 
+    name="email" 
+    required 
+    placeholder="you@example.com"
+    class="w-full px-4 py-3 rounded border border-gray-300"
+  />
+  <input type="text" name="honeypot" style="display:none" />
+  <button 
+    type="submit"
+    class="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 transition"
+  >
+    Join Waitlist
+  </button>
+</form>
+<p id="thankyou" class="hidden text-green-600 font-semibold mt-4">
+  You're on the list! Thanks for signing up.
+</p>
+
+<script>
+  function handleSubmit(e) {
+    e.preventDefault();
+    const form = e.target;
+    fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form)
+    }).then(response => {
+      if (response.ok) {
+        form.style.display = "none";
+        document.getElementById("thankyou").classList.remove("hidden");
+      }
+    });
+    return false;
+  }
+</script>
+
+  </div>
+  <div class="text-center text-xs text-gray-500 mt-10">© 2025 SunCanary. All rights reserved.</div>
+</section>
 
 </body>
 </html>
